@@ -1,5 +1,5 @@
 # Start with a base image containing the necessary tools
-FROM ubuntu:latest
+FROM ubuntu:24.04
 
 # Install the necessary packages
 RUN apt-get update && apt-get install -y \

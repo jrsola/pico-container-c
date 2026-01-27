@@ -25,4 +25,8 @@ Setting up the enviroment to develop in C/C++ for the Pico can be a hassle. Rath
 `cd <my_project>`   
 `rm -rf .git`
 
-5. Open the directory in Visual Studio Code and Open in container.
+5. Open the directory in Visual Studio Code and Open in container.  
+
+6. Edit the file `project_name.txt` and add the name of your pico project
+
+7. (Optional) Create a file `wifi_credentials.txt` with your WIFI network Name and Password if you are developing for a Pico with Wifi
