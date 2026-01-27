@@ -25,8 +25,14 @@ Setting up the enviroment to develop in C/C++ for the Pico can be a hassle. Rath
 `cd <my_project>`   
 `rm -rf .git`
 
-5. Open the directory in Visual Studio Code and Open in container.  
+5. Open the directory in Visual Studio Code.  
 
 6. Edit the file `project_name.txt` and add the name of your pico project
 
-7. (Optional) Create a file `wifi_credentials.txt` with your WIFI network Name and Password if you are developing for a Pico with Wifi
+7. (Optional) Create a file `wifi_credentials.txt` if you are developing for a Pico with Wifi. It just requires two lines: first one for the WiFi Network Name and the second one with the password.
+
+8. Open in Container from Visual Studio Code. The first time it will build the docker image and take some time to download all.
+
+9. Once it's loaded, the environment will set up and will compile tools that are missing (like picotool). Ignore the problem you'll see it shows before the tools are compiled.
+
+10. Click on Build in the bottom bar in VSC and it should compile and build the .elf file you can then copy to the pico to test your program.
