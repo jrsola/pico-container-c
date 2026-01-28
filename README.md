@@ -1,6 +1,8 @@
 ## Pico Container C
 ### Template to develop in C/C++ with a Raspberry Pi Pico and using Docker and Visual Studio Code 
 
+Based on: [PicoDevEnv](https://github.com/AppacYazilim/PicoDevEnv)
+
 #### Problem:
 Setting up the enviroment to develop in C/C++ for the Pico can be a hassle. Rather than installing and setting up your environment each time, I wanted to have a development environment that was ready to go  is to solve the problem of having to download serveral programs and set up the different SDK to develop in C/C++ with a Raspberry Pi Pico.
 
