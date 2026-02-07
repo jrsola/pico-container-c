@@ -18,7 +18,7 @@ Setting up the enviroment to develop in C/C++ for the Pico can be a hassle. Rath
 `mkdir <my_project> && cd <my_project>` 
  
 2. Download this repository  
-    `curl -L https://codeload.github.com/jrsola/pico-project/tar.gz/refs/heads/main \ `
+    `curl -L https://codeload.github.com/jrsola/pico-project/tar.gz/refs/heads/main \ `  
      ` | tar -xz --strip-components=1`
   
 3. Initialize the git information  
