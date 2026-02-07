@@ -15,19 +15,18 @@ Setting up the enviroment to develop in C/C++ for the Pico can be a hassle. Rath
 #### How to use:
 
 1. Change to a directory where you want to create your new project  
-`cd ~/Documents` 
+`mkdir <my_project> && cd <my_project>` 
  
-2. Clone this repository  
-    `git clone https://github.com/jrsola/pico-container-c`
+2. Download this repository  
+    `curl -L https://codeload.github.com/jrsola/pico-project/tar.gz/refs/heads/main \ `
+     ` | tar -xz --strip-components=1`
   
-3. Change the directory name into your own  
- `mv pico-container-c <my_project>`
+3. Initialize the git information  
+`git init`   
+`git add .`
+`git commit -m "Initial commit"`
 
-4. Enter the directory and remove the previous .git information  
-`cd <my_project>`   
-`rm -rf .git`
-
-5. Open the directory in Visual Studio Code.  
+4. Open the directory in Visual Studio Code.  
 
 6. Edit the file `project_name.txt` and add the name of your pico project
 
