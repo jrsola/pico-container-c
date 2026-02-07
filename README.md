@@ -23,8 +23,8 @@ Setting up the enviroment to develop in C/C++ for the Pico can be a hassle. Rath
   
 3. Initialize the git information  
 `git init`   
-`git add .`
-`git commit -m "Initial commit"`
+`git add .`  
+`git commit -m "Initial commit"`  
 
 4. Open the directory in Visual Studio Code.  
 
