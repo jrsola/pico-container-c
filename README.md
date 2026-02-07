@@ -26,7 +26,10 @@ Setting up the enviroment to develop in C/C++ for the Pico can be a hassle. Rath
 `git add .`  
 `git commit -m "Initial commit"`  
 
-4. Open the directory in Visual Studio Code.  
+4. Initialize this README.MD file  
+`echo "README text here" > README.md`  
+
+5. Open the directory in Visual Studio Code.  
 
 6. Edit the file `project_name.txt` and add the name of your pico project
 
