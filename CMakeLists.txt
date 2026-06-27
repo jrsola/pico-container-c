@@ -15,7 +15,7 @@ endif()
 # pico/pico_w/pico2/pico2_w
 set(PICO_BOARD pico_w) 
 
-# switch to use pimoroni libraries (
+# switch to use pimoroni libraries
 # yes/no
 set(USE_PIMORONI yes)
 message(STATUS "Pimoroni Libraries: ${USE_PIMORONI}")
